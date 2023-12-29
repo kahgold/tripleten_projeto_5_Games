@@ -14,6 +14,7 @@
 *Prepare-se para uma emocionante jornada  de análise e descoberta de dados à medida que exploramos o mundo dos jogos, jogue e responda a essas perguntas e muito mais!!*
 
 **Dicionário de dados**
+
 **A tabela games (dados sobre jogos):**
 - `Name` — (nome) — tipo object
 - `Platform` — (plataforma) — tipo object
@@ -33,6 +34,26 @@
 
 **Conclusão**
 
-De tudo o que foi analisado, podemos ver alguns padrões de sucesso nos jogos. Padrões como ser do gênero de ação, esportes ou tiro em NA e EU, em relação à classificação, preferir E ou Mature e deve ser lançado nas plataformas mais novas, como PS4 e XboxOne, que são as que mais vendem. Mas fique de olho nas plataformas de PC, que estão vivas no mercado há muito tempo, no WiiU, que pode lançar um novo jogo se morrer, e no 3DS, que não vende muito, mas ainda está vivo. No Japão a história é diferente, lá você deve ficar de olho em jogos com classificação E ou T e principalmente no gênero RPG seguido de ação e plataforma, entre as plataformas vivas você deve priorizar 3DS, wiiU, PS4, XboxOne e Pc nessa ordem.
+*Chegamos ao final do processo de análise de dados e obtivemos insights valiosos. Processamos um grande DataFrame cheio de valores faltantes e adotamos uma abordagem focada na visualização, buscando ir além dos números para representar graficamente o jogo, a plataforma e o comportamento do jogador, uso e vendas, bem como o ciclo de vida do jogo.*
 
-Sempre prefira o PlayStation ao Xbox em qualquer grupo, pois ele vende mais. Fique de olho nas plataformas PS4, XboxOne, WiiU e 3ds quando lançarem novas plataformas, pois nos primeiros anos elas costumam aumentar as vendas de jogos. Em resumo, um jogo de sucesso nos EUA ou em NA seria um jogo de ação para PS4 com classificação E. No Japão, um jogo de RPG com classificação E na plataforma 3DS.
+***Destacamos alguns pontos-chave:***
+- Exploramos a frequência de palavras em nomes de jogos, revelando que muitos jogos recebem uma segunda edição (II).
+- `Need for Speed Most Wanted`, um jogo do gênero de corrida, liderou em termos de lançamentos em várias plataformas.
+- As plataformas `PS2` e `DS` (portátil) receberam a maioria dos jogos em nosso DataFrame.
+- Nossa análise abrangeu dados de 1980 a 2016, com um pico de lançamentos de jogos em 2010.
+- Jogos dos gêneros `Action` e `Sports` receberam mais lançamentos.
+- Observamos grandes diferenças entre os mercados da América do Norte, Japão e Europa em termos de preferências de gênero e plataformas.
+- O mercado japonês tem uma forte preferência por plataformas portáteis.
+- Gêneros de `Puzzle` e `Strategy` são os menos lucrativos.
+- Notamos o impacto das avaliações profissionais nas vendas, destacando a importância de acompanhar análises de revistas e sites especializados.
+- Nem todas as regiões classificam jogos por faixa etária ou têm o hábito de avaliá-los.
+- As avaliações mais altas, dadas por profissionais, são para jogos dos gêneros `Shooter` e `Racing`, indicando um mercado a ser explorado.
+- A partir de 1995, houve um aumento significativo no lançamento de jogos, seguido por uma desaceleração a partir de 2010.
+- As vendas totais variam de plataforma para plataforma, sugerindo a necessidade de uma estratégia personalizada para cada mercado.
+- As principais plataformas de vendas, como `PS3` e `X360`, estão se aproximando do fim de suas vidas úteis, indicando que é melhor investir em suas novas edições, ou seja, `PS4` e `XOne`.
+- Os usuários na América do Norte preferem plataformas da `Microsoft` e `Sony`, enquanto os europeus jogam com bastante regularidade em computadores (`PC`), além das plataformas mencionadas.
+- O gênero de `Action` é o preferido nos três mercados mencionados.
+
+***Realizamos dois testes de hipótese, destacando que estatisticamente as classificações médias dos usuários para as plataformas `Xbox One` e `PC` são iguais, enquanto as médias das avaliações de usuários para os gêneros `Action` e `Sports` são estatisticamente diferentes.***
+
+**Essas descobertas fornecem insights valiosos para orientar decisões e estratégias no mercado de jogos!**
