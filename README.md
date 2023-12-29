@@ -1,19 +1,31 @@
 # Projeto: Games
 
-Neste projeto, analisei a loja on-line Ice, que vende videogames em todo o mundo. Avaliações de usuários e especialistas, gêneros, plataformas (por exemplo, Xbox ou PlayStation) e dados históricos sobre vendas de jogos estão disponíveis em fontes abertas. Identifiquei padrões que determinam se um jogo é bem-sucedido ou não. Isso me permitiu identificar possíveis grandes vencedores e planejar campanhas publicitárias. À sua frente estão dados que remontam a 2016. Vamos imaginar que estamos em dezembro de 2016 e estamos planejando uma campanha para 2017. O conjunto de dados contém a abreviação ESRB. O Entertainment Software Rating Board avalia o conteúdo de um jogo e atribui uma classificação etária, como Teen ou Mature.
+*Você trabalha para a loja online Ice, que vende videogames no mundo todo. As avaliações de usuários e especialistas, gêneros, plataformas (por exemplo, Xbox ou PlayStation) e dados históricos sobre vendas de jogos estão disponíveis em fontes abertas. Você precisa identificar padrões que determinam se um jogo tem sucesso ou não. Isso permitirá que você identifique potenciais grandes vencedores e planeje campanhas publicitárias.*
 
-**Descrição dos dados**
-- Nome
-- Plataforma
-- Ano de lançamento
-- Gênero
-- NA_sales (vendas na América do Norte em milhões de dólares)
-- EU_sales (vendas na Europa em milhões de dólares)
-- JP_sales (vendas no Japão em milhões de dólares)
-- Other_sales (vendas em outros países em milhões de dólares)
-- Critic_Score - (máximo de 100)
-- User_Score (máximo de 10)
-- Classificação (ESRB)
+*Na sua frente estão dados que remontam a 2016. Vamos imaginar que estamos em dezembro de 2016 e você está planejando uma campanha para 2017. (O importante é ter experiência trabalhando com dados. Realmente não importa se você está prevendo as vendas de 2017 com base nos dados de 2016 ou as vendas de 2027 com base nos dados de 2026.) O conjunto de dados contém a abreviatura ESRB. O Entertainment Software Rating Board avalia o conteúdo de um jogo e atribui uma classificação etária, como Adolescente ou Maduro.*
+
+*Aqui, algumas  perguntas que responderemos com base em dados estatísticos, gráficos e testes de hipóteses:* 
+
+- *Qual é o ciclo de vida de um jogo?*
+- *Como podemos descobrir quais jogos geraram mais receita?*
+- *Quais jogos receberam mais avaliações?*
+- *Como as avaliações dos usuários e da crítica influenciam nas vendas?*
+
+*Prepare-se para uma emocionante jornada  de análise e descoberta de dados à medida que exploramos o mundo dos jogos, jogue e responda a essas perguntas e muito mais!!*
+
+**Dicionário de dados**
+**A tabela games (dados sobre jogos):**
+- `Name` — (nome) — tipo object
+- `Platform` — (plataforma) — tipo object
+- `Year_of_Release` — (Ano de lançamento) — tipo float64
+- `Genre` — (gênero) — tipo object
+- `NA_sales` — (vendas norte-americanas em milhões de USD) — tipo float64
+- `EU_sales` — (vendas na Europa em milhões de USD) — tipo float64
+- `JP_sales` — (vendas no Japão em milhões de USD) — tipo float64
+- `Other_sales` — (vendas em outros países em em milhões de USD) — tipo float64
+- `Critic_Score` — (Pontuação crítica) (máximo de 100) — tipo float64
+- `User_Score` — (Pontuação do usuário) (máximo de 10) — tipo object
+- `Classificação` — (ESRB) — tipo object
 
 **Teste as seguintes hipóteses**
 - As classificações médias de usuários para as plataformas Xbox One e PC são as mesmas.
